@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Демо виджета фонда «Продвижение»</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://storage.yandexcloud.net/dvizhenie-widget/bg.png') center/cover no-repeat #f9f9f9;
+    }
+    h1 {
+      margin: 32px 0 0 32px;
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #222;
+    }
+    p {
+      margin: 16px 0 0 32px;
+      font-size: 1.2rem;
+      color: #222;
+    }
+    .dvizhenie-badge {
+      position: fixed;
+      left: 32px;
+      bottom: 32px;
+      padding: 10px 26px;
+      background: #fff;
+      color: #3C50E2;
+      font-size: 1.05rem;
+      font-weight: bold;
+      border-radius: 22px;
+      box-shadow: 0 2px 8px rgba(60,80,226,0.09);
+      font-family: Arial, sans-serif;
+      letter-spacing: 0.5px;
+      user-select: none;
+      border: 1.5px solid #F9F9F9;
+      z-index: 2000;
+      opacity: 0.97;
+      pointer-events: none;
+    }
+    /* Адаптивность */
+    @media (max-width: 600px) {
+      .dvizhenie-badge {
+        left: 10px;
+        bottom: 10px;
+        padding: 13px 22px;
+        font-size: 1rem;
+        border-radius: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+      <div class="dvizhenie-badge">
+    Демо страницы сайта фонда «Продвижение»
+  </div>
+    <script src="widget.js"></script>
+</body>
+</html>
