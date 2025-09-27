@@ -79,7 +79,7 @@
 
   // Айфрейм
   const iframe = document.createElement('iframe');
-  iframe.src = 'https://docs.crm-tg-mini-app.tw1.ru'; // <-- замени на свой адрес!
+  iframe.src = 'https://app.prodvizhenie.tw1.ru/'; // <-- замени на свой адрес!
 
   // Состояние для анимаций
   let animating = false;
